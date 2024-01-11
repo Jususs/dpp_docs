@@ -17,7 +17,6 @@ Our first sketch and also idea was to use a car horn which is powered by a batte
 
 A detailed description of the concept and sketches of the planned implementation.
 
-If a section grows too large or handles a very specific part of the project it can be put into [subpages]({{< ref "subpage_1#how-to-format" >}}).
 
 {{< figure src="get_in.jpg" caption="*A drawing by David Shrigley.*">}}
 
