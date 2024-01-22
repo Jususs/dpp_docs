@@ -15,9 +15,9 @@ Our first sketch and also idea was to use a car horn which is powered by a batte
 
 {{< figure src="sketch.png" caption="*First sketch of Franz*">}}
 
-The task at hand was to make a Chindōgu, a concept not too foreign to us. We'd seen pictures of Chindōgus before, we just hadn’t heard the name of the concept. Throughout our idea-finding-phase we kept looping
+The task at hand was to make a Chindōgu, a concept not too foreign to us. We'd seen pictures of Chindōgus before, we just hadn't heard the name of the concept. Throughout our idea-finding-phase we kept looping
 back to a very annoying, multi-functional bellow. Why would one need such a device? That is the wrong question to ask, for we made one anyway. A bellow to stand above them all, with both sound effects to
-scare away wild animals and a flashlight to find things in the night. The plan was to make the sounds primarily come from the user opening and closing the bellow itself, while the flashlight should’ve been toggleable. The twists to make it less useful were to make the sound so annoying that you wouldn’t want to use it, even if there was a wild animal approaching and to make the flashlight really, really not fit for the job. How did we accomplish this? You’ll find that out throughout this paper.
+scare away wild animals and a flashlight to find things in the night. The plan was to make the sounds primarily come from the user opening and closing the bellow itself, while the flashlight should've been toggleable. The twists to make it less useful were to make the sound so annoying that you wouldn't want to use it, even if there was a wild animal approaching and to make the flashlight really, really not fit for the job. How did we accomplish this? You'll find that out throughout this paper.
 
 ## Related work 
 
@@ -37,7 +37,7 @@ We got started with testing out different parts of the projects individually and
 Our first idea was to get a car horn to play a "HONK" every time you use the bellow. That proved to be difficult, since the power supply would have to be rather large and we would need to use a converter to increase the voltage from 5V arduino output to much much more.
 
 ### Changing our way of audio implementation
-So, we scrapped the idea of the car horn and tried using an audio speaker. This little downgrade was to be expected and we quickly got down to testing. Since the power supply remained uncertain, we looked for a little speaker which required a low amount of voltage - alas it didn’t.
+So, we scrapped the idea of the car horn and tried using an audio speaker. This little downgrade was to be expected and we quickly got down to testing. Since the power supply remained uncertain, we looked for a little speaker which required a low amount of voltage - alas it didn't.
 
 ### We need more power
 Back to the drawing board, we had to figure out our power situation. In the end we used a power bank to supply the arduino with constant voltage and a - for now externally powered - audio amplifier to get the speaker to work properly. With this setup, we were able to make sounds and also adjust the volume according to the amplifier's adjuster.
@@ -50,7 +50,7 @@ the sensor's capabilities and got it to work properly for our purpose.
 
 ### The last piece of the puzzle
 Finally, we had most of the components figured out.
-A power bank as power supply, a distance sensor to trigger our arduino script, an amplifier to get our speaker to make a sound and the speaker itself. One component was missing in that equation - which was the still externally powered amplifier. To solve even the last issue, we used a step-up converter, to get the needed 12V for the amplifier to work properly. That’s it, the components worked individually, the design was flawless and we were eager to
+A power bank as power supply, a distance sensor to trigger our arduino script, an amplifier to get our speaker to make a sound and the speaker itself. One component was missing in that equation - which was the still externally powered amplifier. To solve even the last issue, we used a step-up converter, to get the needed 12V for the amplifier to work properly. That's it, the components worked individually, the design was flawless and we were eager to
 build the thing!
 
 ### Materials used:
@@ -58,7 +58,7 @@ build the thing!
 <li>Power bank as power supply</li>
 <li>Ultrasonic sensor HC-SR04</li>
 <li>Step-up converter MT3608 (5V to 12V)</li>
-<li>“battered” audio speaker</li>
+<li>"battered" audio speaker</li>
 <li>Audio amplifier board Class D</li>
 <li>A bellow (purchased at OBI)</li>
 <li>some tape and love</li>
