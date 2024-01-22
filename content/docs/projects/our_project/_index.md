@@ -53,7 +53,7 @@ Finally, we had most of the components figured out.
 A power bank as power supply, a distance sensor to trigger our arduino script, an amplifier to get our speaker to make a sound and the speaker itself. One component was missing in that equation - which was the still externally powered amplifier. To solve even the last issue, we used a step-up converter, to get the needed 12V for the amplifier to work properly. That's it, the components worked individually, the design was flawless and we were eager to
 build the thing!
 
-### Materials used:
+### Materials used
 <ul>
 <li>Power bank as power supply</li>
 <li>Ultrasonic sensor HC-SR04</li>
